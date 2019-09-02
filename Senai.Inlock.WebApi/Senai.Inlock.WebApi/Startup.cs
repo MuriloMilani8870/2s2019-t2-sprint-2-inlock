@@ -53,7 +53,7 @@ namespace Senai.Inlock.WebApi
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "M_InLock API", Version = "v1" });
+                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "M_Inlock API", Version = "v1" });
             });
 
             services.AddCors(options =>
@@ -76,7 +76,7 @@ namespace Senai.Inlock.WebApi
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "M_InLock API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "M_Inlock API V1");
             });
 
             app.UseAuthentication();

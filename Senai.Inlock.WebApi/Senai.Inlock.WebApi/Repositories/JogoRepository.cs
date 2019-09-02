@@ -52,11 +52,11 @@ namespace Senai.Inlock.WebApi.Repositories
             }
         }
 
-        public void Deletar(Jogos jogo)
+        public void Deletar(int id)
         {
             using (InLockContext ctx = new InLockContext())
             {
-                Jogos JogoBuscado = ctx.Jogos.Find(jogo.JogoId);
+                Jogos JogoBuscado = ctx.Jogos.Find(id);
                 ctx.Jogos.Remove(JogoBuscado);
                 ctx.SaveChanges();
             }

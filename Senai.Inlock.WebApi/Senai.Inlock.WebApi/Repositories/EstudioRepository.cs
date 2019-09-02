@@ -31,6 +31,14 @@ namespace Senai.Inlock.WebApi.Repositories
             }
         }
 
+        public Estudios BuscarPorId(int id)
+        {
+            using (InLockContext ctx = new InLockContext())
+            {
+                return ctx.Estudios.FirstOrDefault(x => x.EstudioId == id);
+            }
+        }
+
         public void Atualizar(Estudios estudio)
         {
             using (InLockContext ctx = new InLockContext())
@@ -42,11 +50,11 @@ namespace Senai.Inlock.WebApi.Repositories
             }
         }
 
-        public void Deletar(Estudios estudio)
+        public void Deletar(int id)
         {
             using (InLockContext ctx = new InLockContext())
             {
-                Estudios EstudioBuscado = ctx.Estudios.Find(estudio.EstudioId);
+                Estudios EstudioBuscado = ctx.Estudios.Find(id);
                 ctx.Estudios.Remove(EstudioBuscado);
                 ctx.SaveChanges();
             }
