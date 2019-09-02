@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.Inlock.WebApi.Domains;
@@ -12,6 +13,7 @@ namespace Senai.Inlock.WebApi.Controllers
     [Route("api/[controller]")]
     [Produces("application/json")]
     [ApiController]
+    [Authorize(Roles = "ADMINISTRADOR")]
     public class EstudiosController : ControllerBase
     {
         EstudioRepository EstudioRepository = new EstudioRepository();
