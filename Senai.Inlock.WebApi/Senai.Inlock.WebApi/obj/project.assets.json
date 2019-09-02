@@ -12702,7 +12702,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.11",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
-      "Swashbuckle.AspNetCore >= 4.0.1"
+      "Swashbuckle.AspNetCore >= 4.0.1",
+      "Swashbuckle.AspNetCore.Swagger >= 4.0.1"
     ]
   },
   "packageFolders": {
@@ -12781,6 +12782,10 @@
             "version": "[2.1.9, )"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
             "version": "[4.0.1, )"
           }

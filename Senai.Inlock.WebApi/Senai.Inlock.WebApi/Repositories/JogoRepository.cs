@@ -62,7 +62,7 @@ namespace Senai.Inlock.WebApi.Repositories
             }
         }
 
-        public List<Jogos> ListarJogoEstudio()
+        public List<Jogos> JogoEstudio()
         {
             using (SqlConnection con = new SqlConnection(StringConexao))
             {

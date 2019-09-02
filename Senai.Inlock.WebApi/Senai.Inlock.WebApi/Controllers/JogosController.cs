@@ -6,26 +6,25 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.Inlock.WebApi.Domains;
 using Senai.Inlock.WebApi.Repositories;
-
 namespace Senai.Inlock.WebApi.Controllers
 {
     [Route("api/[controller]")]
-    [Produces ("application/json")]
+    [Produces("application/json")]
     [ApiController]
     public class JogosController : ControllerBase
     {
         JogoRepository JogoRepository = new JogoRepository();
 
         [HttpGet]
-        public IActionResult ListarTodos()
+        public IActionResult Listar()
         {
             return Ok(JogoRepository.Listar());
         }
 
-        [HttpGet]
-        public IActionResult ListarJogoEstudio()
+        [HttpGet("{JogoEstudio}")]
+        public IActionResult JogoEstudio()
         {
-            return Ok(JogoRepository.ListarJogoEstudio());
+            return Ok(JogoRepository.JogoEstudio());
         }
 
         [HttpPost]
