@@ -6,9 +6,9 @@ SELECT * FROM Jogos
 
 SELECT * FROM Estudios
 
-SELECT * FROM Jogos 
-INNER JOIN Estudios
-ON Jogos.EstudioId = Estudios.EstudioId
+SELECT J.JogoId , J.NomeJogo , J.Descricao , J.DataLancamento , J.Valor , E.EstudioId , E.NomeEstudio , E.PaisOrigem , E.DataCriacao , E.UsuarioId FROM Jogos J
+INNER JOIN Estudios E
+ON J.EstudioId = E.EstudioId
 
 SELECT * FROM Jogos 
 FULL JOIN Estudios
