@@ -1,0 +1,435 @@
+{
+	"id": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+	"name": "Senai.InLock.WebApi",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Estúdios",
+			"description": "",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"order": [
+				"f9d761c4-cf4b-3105-1884-78e29cbaaa4f",
+				"51475dfd-e5f6-15da-a4f2-0081cda02a53",
+				"ea9ae479-def4-d4cc-eb49-80062c4145c4",
+				"7f815b9c-7d3b-ac7c-a257-dc69320e12d5"
+			],
+			"owner": "8493192",
+			"folders_order": [],
+			"id": "0ca53a0f-e15d-caf9-9045-9d2f88e0b934"
+		},
+		{
+			"name": "Jogos",
+			"description": "",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"order": [
+				"028264e4-1f40-8747-adf7-1c195006d353",
+				"24a2230a-6a57-cc20-e005-0918f029aa29",
+				"52eefcbd-3869-67b8-9898-6bdba5a1b032",
+				"199f95b6-02c4-d6d2-e5d1-4b3b22d2d17f",
+				"22374c8e-5e0e-2b2a-9472-99d34dacf369",
+				"cace7099-4ae6-fa99-ac3e-cf812fb0e369"
+			],
+			"owner": "8493192",
+			"folders_order": [],
+			"id": "00468f7f-699c-68a4-e42b-39a55f0e390c"
+		},
+		{
+			"name": "Login",
+			"description": "",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"order": [
+				"f6141579-e364-d7b4-76a2-f272b368087c"
+			],
+			"owner": "8493192",
+			"folders_order": [],
+			"id": "bfec9d24-e3a9-8c8d-cc33-7f9cbb276cfa"
+		}
+	],
+	"folders_order": [
+		"00468f7f-699c-68a4-e42b-39a55f0e390c",
+		"0ca53a0f-e15d-caf9-9045-9d2f88e0b934",
+		"bfec9d24-e3a9-8c8d-cc33-7f9cbb276cfa"
+	],
+	"timestamp": 1567433617457,
+	"owner": "8493192",
+	"public": false,
+	"requests": [
+		{
+			"id": "028264e4-1f40-8747-adf7-1c195006d353",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudGVAY2xpZW50ZS5jb20iLCJjaGF2ZSI6InZhbG9yIiwianRpIjoiMiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkNPTVVNIiwiZXhwIjoxNTY3NTA5NTk1LCJpc3MiOiJJbmxvY2suV2ViQXBpIiwiYXVkIjoiSW5sb2NrLldlYkFwaSJ9.qUeic8TloNnG1ylpUBrtXnbyIHLGCvXrH0VoXdVNPdg\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudGVAY2xpZW50ZS5jb20iLCJjaGF2ZSI6InZhbG9yIiwianRpIjoiMiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkNPTVVNIiwiZXhwIjoxNTY3NTA5NTk1LCJpc3MiOiJJbmxvY2suV2ViQXBpIiwiYXVkIjoiSW5sb2NrLldlYkFwaSJ9.qUeic8TloNnG1ylpUBrtXnbyIHLGCvXrH0VoXdVNPdg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/jogos",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"data": null,
+			"dataMode": "params",
+			"name": "Jogos.Listar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567507826807,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "00468f7f-699c-68a4-e42b-39a55f0e390c"
+		},
+		{
+			"id": "199f95b6-02c4-d6d2-e5d1-4b3b22d2d17f",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUxMTU1MywiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.oY3-uzwZOsGM1P-OAnmoYJyozWiVshRU_nv3Xso2UP4\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUxMTU1MywiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.oY3-uzwZOsGM1P-OAnmoYJyozWiVshRU_nv3Xso2UP4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/jogos/3",
+			"folder": "00468f7f-699c-68a4-e42b-39a55f0e390c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567509903882,
+			"name": "Jogos.Alterar",
+			"description": "",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"responses": [],
+			"rawModeData": "{\n        \"nomeJogo\": \"Diablo 4\",\n\t\n}"
+		},
+		{
+			"id": "22374c8e-5e0e-2b2a-9472-99d34dacf369",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUxMTU1MywiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.oY3-uzwZOsGM1P-OAnmoYJyozWiVshRU_nv3Xso2UP4\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUxMTU1MywiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.oY3-uzwZOsGM1P-OAnmoYJyozWiVshRU_nv3Xso2UP4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/jogos/3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"data": null,
+			"dataMode": "params",
+			"name": "Jogos.Deletar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567509948771,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "00468f7f-699c-68a4-e42b-39a55f0e390c"
+		},
+		{
+			"id": "24a2230a-6a57-cc20-e005-0918f029aa29",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudGVAY2xpZW50ZS5jb20iLCJjaGF2ZSI6InZhbG9yIiwianRpIjoiMiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkNPTVVNIiwiZXhwIjoxNTY3NTA5NTk1LCJpc3MiOiJJbmxvY2suV2ViQXBpIiwiYXVkIjoiSW5sb2NrLldlYkFwaSJ9.qUeic8TloNnG1ylpUBrtXnbyIHLGCvXrH0VoXdVNPdg\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudGVAY2xpZW50ZS5jb20iLCJjaGF2ZSI6InZhbG9yIiwianRpIjoiMiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkNPTVVNIiwiZXhwIjoxNTY3NTA5NTk1LCJpc3MiOiJJbmxvY2suV2ViQXBpIiwiYXVkIjoiSW5sb2NrLldlYkFwaSJ9.qUeic8TloNnG1ylpUBrtXnbyIHLGCvXrH0VoXdVNPdg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/jogos/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"data": null,
+			"dataMode": "params",
+			"name": "Jogos.ListarPorId",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567507866563,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "00468f7f-699c-68a4-e42b-39a55f0e390c"
+		},
+		{
+			"id": "51475dfd-e5f6-15da-a4f2-0081cda02a53",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUwOTEzMiwiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.s3nl641L2p84TGEXwtV_vb03DHppUf2Q1sv7vZJNr90\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUwOTEzMiwiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.s3nl641L2p84TGEXwtV_vb03DHppUf2Q1sv7vZJNr90",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/estudios/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Estudios.Alterar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567507435624,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0ca53a0f-e15d-caf9-9045-9d2f88e0b934",
+			"rawModeData": "{\n    \"nomeEstudio\": \"Blizzard\",\n}"
+		},
+		{
+			"id": "52eefcbd-3869-67b8-9898-6bdba5a1b032",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUxMTU1MywiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.oY3-uzwZOsGM1P-OAnmoYJyozWiVshRU_nv3Xso2UP4\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUxMTU1MywiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.oY3-uzwZOsGM1P-OAnmoYJyozWiVshRU_nv3Xso2UP4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/jogos",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Jogos.Cadastrar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567509780612,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "00468f7f-699c-68a4-e42b-39a55f0e390c",
+			"rawModeData": "{\n        \"nomeJogo\": \"Diablo 3\",\n        \"descricao\": \"É um jogo que contém bastante ação e é viciante, seja você um novato ou um fã\",\n        \"dataLancamento\": \"2012-05-15T00:00:00\",\n        \"valor\": 99,\n        \"estudioId\": 1\n}"
+		},
+		{
+			"id": "7f815b9c-7d3b-ac7c-a257-dc69320e12d5",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUwOTEzMiwiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.s3nl641L2p84TGEXwtV_vb03DHppUf2Q1sv7vZJNr90\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUwOTEzMiwiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.s3nl641L2p84TGEXwtV_vb03DHppUf2Q1sv7vZJNr90",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/estudios/4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Estudios.Deletar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567507665840,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0ca53a0f-e15d-caf9-9045-9d2f88e0b934",
+			"rawModeData": ""
+		},
+		{
+			"id": "cace7099-4ae6-fa99-ac3e-cf812fb0e369",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUxMTkzNSwiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.smgE79q2PDwAenhcj5wOo04WbLDg-2c6XY-eYSc5q9I\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUxMTkzNSwiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.smgE79q2PDwAenhcj5wOo04WbLDg-2c6XY-eYSc5q9I",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/jogos/JogoEstudio",
+			"folder": "00468f7f-699c-68a4-e42b-39a55f0e390c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567510260840,
+			"name": "Jogos.ListarJogoEstudio",
+			"description": "",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"responses": []
+		},
+		{
+			"id": "ea9ae479-def4-d4cc-eb49-80062c4145c4",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUwOTEzMiwiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.s3nl641L2p84TGEXwtV_vb03DHppUf2Q1sv7vZJNr90\n        \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUwOTEzMiwiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.s3nl641L2p84TGEXwtV_vb03DHppUf2Q1sv7vZJNr90\n        ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/estudios",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Estudios.Cadastrar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1567507608482,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0ca53a0f-e15d-caf9-9045-9d2f88e0b934",
+			"rawModeData": "{\n        \"nomeEstudio\": \"EA Sports\",\n        \"paisOrigem\": \"Canadá\",\n        \"dataCriacao\": \"1991-01-01\"\n}"
+		},
+		{
+			"id": "f6141579-e364-d7b4-76a2-f272b368087c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/Login",
+			"folder": "bfec9d24-e3a9-8c8d-cc33-7f9cbb276cfa",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567434010828,
+			"name": "Login.Login",
+			"description": "",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\" : \"admin@admin.com\",\n\t\"senha\" : \"admin\"\n}"
+		},
+		{
+			"id": "f9d761c4-cf4b-3105-1884-78e29cbaaa4f",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUwOTEzMiwiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.s3nl641L2p84TGEXwtV_vb03DHppUf2Q1sv7vZJNr90\n",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImNoYXZlIjoidmFsb3IiLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzUwOTEzMiwiaXNzIjoiSW5sb2NrLldlYkFwaSIsImF1ZCI6IklubG9jay5XZWJBcGkifQ.s3nl641L2p84TGEXwtV_vb03DHppUf2Q1sv7vZJNr90",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/estudios",
+			"folder": "0ca53a0f-e15d-caf9-9045-9d2f88e0b934",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567507440892,
+			"name": "Estudios.Listar",
+			"description": "",
+			"collectionId": "0d7552eb-6327-53c9-9a28-1fc4a6e4d480",
+			"responses": []
+		}
+	]
+}

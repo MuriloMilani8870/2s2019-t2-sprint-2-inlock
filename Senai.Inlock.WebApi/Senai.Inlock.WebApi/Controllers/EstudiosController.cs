@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -27,6 +29,13 @@ namespace Senai.Inlock.WebApi.Controllers
         [HttpPost]
         public IActionResult Cadastrar(Estudios estudio)
         {
+            string EmailUsuario = User.FindFirst(ClaimTypes.Email)?.Value;
+            string PermissaoUsuario = User.FindFirst(ClaimTypes.Role)?.Value;
+            string IdUsuario = User.FindFirst(JwtRegisteredClaimNames.Jti)?.Value;
+            int IntId = int.Parse(IdUsuario);
+
+            estudio.UsuarioId = IntId;
+          
             try
             {
                 EstudioRepository.Cadastrar(estudio);

@@ -24,7 +24,7 @@ namespace Senai.Inlock.WebApi.Controllers
             return Ok(JogoRepository.Listar());
         }
 
-        [HttpGet("{JogoEstudio}")]
+        [HttpGet("JogoEstudio")]
         public IActionResult JogoEstudio()
         {
             return Ok(JogoRepository.JogoEstudio());
