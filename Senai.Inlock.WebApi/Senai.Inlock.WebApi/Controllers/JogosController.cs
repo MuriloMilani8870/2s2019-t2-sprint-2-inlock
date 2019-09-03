@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.Inlock.WebApi.Domains;
 using Senai.Inlock.WebApi.Repositories;
+using Senai.Inlock.WebApi.ViewModels;
+
 namespace Senai.Inlock.WebApi.Controllers
 {
     [Route("api/[controller]")]
@@ -22,6 +24,18 @@ namespace Senai.Inlock.WebApi.Controllers
         public IActionResult Listar()
         {
             return Ok(JogoRepository.Listar());
+        }
+
+        [HttpGet("ListarPorPreco")]
+        public IActionResult ListarPorPreco()
+        {
+            return Ok(JogoRepository.ListarPorPreco());
+        }
+
+        [HttpGet("ListarPorData")]
+        public IActionResult ListarPorData()
+        {
+            return Ok(JogoRepository.ListarPorData());
         }
 
         [HttpGet("JogoEstudio")]
@@ -48,10 +62,19 @@ namespace Senai.Inlock.WebApi.Controllers
         [HttpGet("{id}")]
         public IActionResult BuscaPorId(int id)
         {
-            Jogos Cargo = JogoRepository.BuscarPorId(id);
-            if (Cargo == null)
+            Jogos Jogo = JogoRepository.BuscarPorId(id);
+            if (Jogo == null)
                 return NotFound();
-            return Ok(Cargo);
+            return Ok(Jogo);
+        }
+
+        [HttpGet("BuscarPorNome/{nome}")]
+        public IActionResult BuscarPorNome(string nome)
+        {
+            Jogos Jogo = JogoRepository.BuscarPorNome(nome);
+            if (Jogo == null)
+                return NotFound();
+            return Ok(Jogo);
         }
 
         [Authorize(Roles = "ADMINISTRADOR")]
@@ -82,5 +105,12 @@ namespace Senai.Inlock.WebApi.Controllers
             JogoRepository.Deletar(id);
             return Ok();
         }
+
+        [HttpGet("TempoParaLancamento")]
+        public IActionResult TempoParaLancamento()
+        {
+            return Ok(JogoRepository.TempoParaLancamento());
+        }
+
     }
 }
